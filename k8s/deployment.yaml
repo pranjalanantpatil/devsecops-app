@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: devsecops-app
-        image: pranjalpatil22/devsecops-app:latest
+        image: pranjalpatil22/devsecops-app:v2
         ports:
         - containerPort: 5001
