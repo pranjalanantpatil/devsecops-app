@@ -16,10 +16,17 @@ jobs:
     # ---------------- SonarQube Scan ----------------
 
 #    - name: SonarQube Scan
+
 #      uses: SonarSource/sonarqube-scan-action@master
 #      env:
  #       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   #      SONAR_HOST_URL: http://192.168.56.127:9000
+
+ #     uses: SonarSource/sonarqube-scan-action@master
+  #    env:
+   #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    #    SONAR_HOST_URL: http://192.168.56.127:9000
+
 
     # ---------------- Gitleaks Scan ----------------
 
